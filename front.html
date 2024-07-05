@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Typing Test</h1>
+            <div id="target-container">
+                <p id="target-text">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <textarea id="user-input" rows="5" placeholder="Start typing here..."></textarea>
+            <div class="results">
+                <div class="result-item">
+                    <span class="result-label">Time:</span>
+                    <span class="result-value" id="time">0</span> seconds
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Speed:</span>
+                    <span class="result-value" id="speed">0</span> WPM
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Accuracy:</span>
+                    <span class="result-value" id="accuracy">100</span>%
+                </div>
+            </div>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
